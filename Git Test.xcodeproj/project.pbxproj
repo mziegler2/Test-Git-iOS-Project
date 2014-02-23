@@ -21,6 +21,7 @@
 		B64A65CE18B96C1600EBF631 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64A65B018B96C1600EBF631 /* UIKit.framework */; };
 		B64A65D618B96C1600EBF631 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B64A65D418B96C1600EBF631 /* InfoPlist.strings */; };
 		B64A65D818B96C1600EBF631 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B64A65D718B96C1600EBF631 /* Git_TestTests.m */; };
+		B64A65E318B9733300EBF631 /* MZTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B64A65E218B9733300EBF631 /* MZTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B64A65D318B96C1600EBF631 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		B64A65D518B96C1600EBF631 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B64A65D718B96C1600EBF631 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		B64A65E118B9733300EBF631 /* MZTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZTest.h; path = ../MZTest.h; sourceTree = "<group>"; };
+		B64A65E218B9733300EBF631 /* MZTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZTest.m; path = ../MZTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		B64A65B218B96C1600EBF631 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				B64A65E118B9733300EBF631 /* MZTest.h */,
+				B64A65E218B9733300EBF631 /* MZTest.m */,
 				B64A65BB18B96C1600EBF631 /* MZAppDelegate.h */,
 				B64A65BC18B96C1600EBF631 /* MZAppDelegate.m */,
 				B64A65BE18B96C1600EBF631 /* Main.storyboard */,
@@ -252,6 +257,7 @@
 			files = (
 				B64A65C318B96C1600EBF631 /* MZViewController.m in Sources */,
 				B64A65B918B96C1600EBF631 /* main.m in Sources */,
+				B64A65E318B9733300EBF631 /* MZTest.m in Sources */,
 				B64A65BD18B96C1600EBF631 /* MZAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
